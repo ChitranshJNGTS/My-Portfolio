@@ -4,6 +4,7 @@ import React from "react";
 import Particle from "./Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import backgroundimage from "../assets/images/moon.jpg"; // Importing background image
 import homeMain from "../assets/images/home-main.svg";
 // import Footer from "./Footer"; // Importing Footer component
 import { motion as Motion } from "framer-motion"; // Importing framer-motion for animations
@@ -14,7 +15,7 @@ function Home() {
       <div
         className="w-full min-h-screen bg-gray-600 relative bg-fixed bg-cover"
         style={{
-          backgroundImage: `url(${"src/assets/images/moon.jpg"})`, // Your background image
+          backgroundImage: `url(${backgroundimage})`, // Your background image
           backgroundPosition: "center",
           backgroundAttachment: "fixed", // Keeps the background fixed while content scrolls
           backgroundSize: "cover", // Ensures the background covers the entire viewport
