@@ -1,15 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../App.css";
+import backgroundimage from "../assets/images/moon.jpg"; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Tesla from "../assets/images/6.jpg";
+import Flipkart from "../assets/images/next_gen_tech_services_logo.jpeg";
+import Multiuser from "../assets/images/multiuser.png"
 const MyProjects = () => {
   return (
     <div
       className="w-full  bg-fixed bg-cover bg-center"
       style={{
-        backgroundImage: `url("src/assets/images/moon.jpg")`,
+        backgroundImage: `url("${backgroundimage}")`, // Your background image
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -25,7 +28,7 @@ const MyProjects = () => {
             {/* Tesla Clone */}
             <a href="https://tesla-fake-web.netlify.app/" target="_blank" rel="noopener noreferrer">
               <div className="bg-gray-900 p-6 rounded-lg shadow-lg border-l-4 border-purple-600 hover:scale-105 transition-transform duration-300">
-                <img src="src/assets/images/6.jpg" alt="Tesla Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
+                <img src={Tesla} alt="Tesla Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-semibold text-purple-600">Tesla Clone</h3>
                 <p className="text-gray-300">A Tesla website clone built using React.js and Tailwind CSS.</p>
                 {/* <p className="text-sm text-gray-400 mt-2">Duration: 2 months</p> */}
@@ -35,7 +38,7 @@ const MyProjects = () => {
             {/* Flipkart Clone */}
             <a href="https://next-gen-tech-web.netlify.app/" target="_blank" rel="noopener noreferrer">
               <div className="bg-gray-900 p-6 rounded-lg shadow-lg border-l-4 border-purple-600 hover:scale-105 transition-transform duration-300">
-                <img src="src/assets/images/next_gen_tech_services_logo.jpeg" alt="Flipkart Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
+                <img src={Flipkart} alt="Flipkart Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-semibold text-purple-600">Next Gen Tech Solution (Clone)</h3>
                 <p className="text-gray-300">A fully responsive Flipkart clone with product fetching and cart functionality.</p>
                 {/* <p className="text-sm text-gray-400 mt-2">Duration: 3 months</p> */}
@@ -45,7 +48,7 @@ const MyProjects = () => {
             {/* O2 Bharat Clone */}
             <a href="https://my-portfolio-cj.netlify.app/" target="_blank" rel="noopener noreferrer">
               <div className="bg-gray-900 p-6 rounded-lg shadow-lg border-l-4 border-purple-600 hover:scale-105 transition-transform duration-300">
-                <img src="src/assets/images/multiuser.png" alt="O2 Bharat Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
+                <img src={Multiuser} alt="O2 Bharat Clone" className="w-full h-56 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-semibold text-purple-600">Multi User Login Page</h3>
                 <p className="text-gray-300">A replica of the O2 Bharat website built using Chakra UI.</p>
                 {/* <p className="text-sm text-gray-400 mt-2">Duration: 1.5 months</p> */}

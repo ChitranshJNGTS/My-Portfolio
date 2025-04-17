@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import myResume from "../assets/My CV.pdf";
+import backgroundimage from "../assets/images/moon.jpg"; 
 
 function Resume() {
   return (
@@ -9,7 +10,7 @@ function Resume() {
       <div
           className="w-full min-h-screen bg-fixed bg-cover bg-center"
           style={{
-            backgroundImage: `url("src/assets/images/moon.jpg")`,
+            backgroundImage: `url("${backgroundimage}")`, // Your background image
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
             backgroundPosition: "center",

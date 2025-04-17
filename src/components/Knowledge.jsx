@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 import "../App.css";
 import Lottie from 'lottie-react';
 import AboutAnimation from "../assets/AboutAnimation - 1743665781169.json";
+import backgroundimage from "../assets/images/moon.jpg"; 
 
 const About = () => {
   return (
     <div
       className="w-full bg-fixed bg-cover bg-center"
       style={{
-        backgroundImage: `url("src/assets/images/moon.jpg")`,
+        backgroundImage: `url(${backgroundimage})`, // Your background image
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
         backgroundPosition: "center",
