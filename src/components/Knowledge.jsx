@@ -3,7 +3,11 @@ import { motion } from "framer-motion";
 import "../App.css";
 import Lottie from 'lottie-react';
 import AboutAnimation from "../assets/AboutAnimation - 1743665781169.json";
-import backgroundimage from "../assets/images/moon.jpg"; 
+import backgroundimage from "../assets/images/moon.jpg";
+import Techstack from './TechStack1';
+import TechIcons from './Tech';
+
+
 
 const About = () => {
   return (
@@ -66,6 +70,18 @@ const About = () => {
           </div>
         </div>
       </div>
+      <h1 className="text-5xl mb-8 text-white font-bold text-center">
+  Professional <strong className="text-purple-600">Skillset</strong>
+</h1>
+<Techstack />
+
+<h1 className="text-5xl mb-8 text-white font-bold text-center">
+  <strong className="text-purple-600">Tools</strong> I use
+</h1>
+<TechIcons />
+
+
+
     </div>
   );
 };

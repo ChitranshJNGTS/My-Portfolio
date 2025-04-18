@@ -28,7 +28,7 @@ function Footer() {
             <ul className="flex justify-center space-x-6">
               <li>
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ChitranshJNGTS"
                   className="text-white hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -38,7 +38,7 @@ function Footer() {
               </li>
               {/* <li>
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href=""
                   className="text-white hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -48,7 +48,7 @@ function Footer() {
               </li> */}
               <li>
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/chitransh-jawre-80338b332/"
                   className="text-white hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -58,7 +58,7 @@ function Footer() {
               </li>
               {/* <li>
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href=""
                   className="text-white hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"

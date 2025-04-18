@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProfessionalWork from "./ProfessionalWork";
-
+import Boy from "../assets/images/avatar.svg"; 
 function Home2() {
   
   const settings = {
@@ -66,7 +66,7 @@ function Home2() {
           <div className="lg:w-4/12 w-full flex justify-center mt-12 lg:mt-0">
             <Tilt>
               <img
-                src={"src/assets/images/avatar.svg"}
+                src={Boy}
                 className="max-h-[450px] object-contain lg:mt-150 rounded-full shadow-lg"
                 alt="avatar"
               />
